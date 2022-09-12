@@ -4,8 +4,7 @@ import pandas as pd
 
 
 plot.style.use('bmh')
-df = pd.read_csv(
-    'D:\Programming\Cse 498R\bar chart and min max functions\highRange_Ram.csv')
+df = pd.read_csv('highRange_mouse.csv')
 
 print(df.shape[0])
 
